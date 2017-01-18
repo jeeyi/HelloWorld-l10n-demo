@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0A12481E2EEE5400BD7572 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A0A12461E2EEE5400BD7572 /* Localizable.strings */; };
 		2A7EE6481E2DEE5000247C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE6471E2DEE5000247C81 /* main.m */; };
 		2A7EE64B1E2DEE5000247C81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE64A1E2DEE5000247C81 /* AppDelegate.m */; };
 		2A7EE64E1E2DEE5000247C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE64D1E2DEE5000247C81 /* ViewController.m */; };
@@ -16,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0A12421E2EEDC700BD7572 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		2A0A12431E2EEDC700BD7572 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2A0A12441E2EEDCE00BD7572 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		2A0A12451E2EEDCE00BD7572 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2A0A12471E2EEE5400BD7572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2A0A12491E2EEE5E00BD7572 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2A0A124A1E2EEE6700BD7572 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2A7EE6431E2DEE5000247C81 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7EE6471E2DEE5000247C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A7EE6491E2DEE5000247C81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,11 +34,6 @@
 		2A7EE6521E2DEE5000247C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7EE6551E2DEE5000247C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A7EE6571E2DEE5000247C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A7EE6631E2DF4BE00247C81 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
-		2A7EE6641E2DF4BE00247C81 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		2A7EE6651E2DF4C700247C81 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		2A7EE6661E2DF4C700247C81 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		2A7EE6681E2DF6F700247C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		2A7EE6451E2DEE5000247C81 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				2A0A12461E2EEE5400BD7572 /* Localizable.strings */,
 				2A7EE6491E2DEE5000247C81 /* AppDelegate.h */,
 				2A7EE64A1E2DEE5000247C81 /* AppDelegate.m */,
 				2A7EE64C1E2DEE5000247C81 /* ViewController.h */,
@@ -125,6 +129,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ko,
 			);
 			mainGroup = 2A7EE63A1E2DEE5000247C81;
 			productRefGroup = 2A7EE6441E2DEE5000247C81 /* Products */;
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7EE6561E2DEE5000247C81 /* LaunchScreen.storyboard in Resources */,
+				2A0A12481E2EEE5400BD7572 /* Localizable.strings in Resources */,
 				2A7EE6531E2DEE5000247C81 /* Assets.xcassets in Resources */,
 				2A7EE6511E2DEE5000247C81 /* Main.storyboard in Resources */,
 			);
@@ -163,13 +170,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2A0A12461E2EEE5400BD7572 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0A12471E2EEE5400BD7572 /* en */,
+				2A0A12491E2EEE5E00BD7572 /* es */,
+				2A0A124A1E2EEE6700BD7572 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2A7EE64F1E2DEE5000247C81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A7EE6501E2DEE5000247C81 /* Base */,
-				2A7EE6631E2DF4BE00247C81 /* ko */,
-				2A7EE6651E2DF4C700247C81 /* es */,
-				2A7EE6681E2DF6F700247C81 /* en */,
+				2A0A12421E2EEDC700BD7572 /* es */,
+				2A0A12441E2EEDCE00BD7572 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -178,8 +194,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A7EE6551E2DEE5000247C81 /* Base */,
-				2A7EE6641E2DF4BE00247C81 /* ko */,
-				2A7EE6661E2DF4C700247C81 /* es */,
+				2A0A12431E2EEDC700BD7572 /* es */,
+				2A0A12451E2EEDCE00BD7572 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +324,7 @@
 				2A7EE65C1E2DEE5000247C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
